@@ -6,6 +6,7 @@ SeedSigner-WorldMap is a Python tool to generate a beautiful, dark-themed world 
 - Diagonally patterned countries: Countries with partial (not full) language support in SeedSigner (e.g., India, where not all official languages are supported).
 - Custom logo overlay
 - High-quality PNG and SVG output
+- Displays the current release code/version on the map, just below the logo, using the same color as highlighted countries. You can set the release code by editing the RELEASE_CODE variable at the top of generate_map.py.
 
 ## Features
 - Highlight countries by listing them in `highlighted_countries.txt` (should match SeedSigner full language support)

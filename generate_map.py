@@ -26,6 +26,8 @@ try:
 except FileNotFoundError:
     partial_support = set()
 
+RELEASE_CODE = "v0.8.6"  # <-- Set your release code here
+
 def get_country_name_variants(name):
     try:
         country = pycountry.countries.lookup(name)
@@ -104,8 +106,11 @@ try:
     imagebox = OffsetImage(logo_img, zoom=0.03)
     ab = AnnotationBbox(imagebox, (0.5, 1.08), frameon=False, xycoords='axes fraction', box_alignment=(0.5, 1.0))
     ax.add_artist(ab)
+    # Add release code below the logo (smaller and lower)
+    ax.text(0.5, 0.99, RELEASE_CODE, color=orange, fontsize=12, fontweight='bold', ha='center', va='top', transform=ax.transAxes)
 except FileNotFoundError:
-    pass
+    # Add release code even if logo is missing (smaller and lower)
+    ax.text(0.5, 0.99, RELEASE_CODE, color=orange, fontsize=12, fontweight='bold', ha='center', va='top', transform=ax.transAxes)
 
 ax.axis('off')
 plt.tight_layout()
