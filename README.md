@@ -1,6 +1,6 @@
 # SeedSigner-WorldMap
 
-![Latest generated world map](world_map.png)
+![Latest generated world map](output/world_map.png)
 
 SeedSigner-WorldMap is a Python tool to generate a beautiful, dark-themed world map that highlights all countries whose official languages are currently supported by the latest SeedSigner release.
 
@@ -32,9 +32,9 @@ SeedSigner-WorldMap is a Python tool to generate a beautiful, dark-themed world 
 3. Place your logo as `logo.png` in the project directory (optional).
 4. Run the script:
    ```sh
-   python generate_map.py
+   python src/generate_map.py
    ```
-5. The output files `world_map.png` and `world_map.svg` will be created in the project directory.
+5. The output files `output/world_map.png` and `output/world_map.svg` will be created in the output directory.
 
 ## How to Update for New SeedSigner Releases
 - Check the SeedSigner documentation or release notes for the list of supported languages.

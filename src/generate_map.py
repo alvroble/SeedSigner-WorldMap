@@ -109,9 +109,9 @@ def plot_map(gdf, highlighted_variants, partial_support_variants, manually_highl
 
     ax.axis('off')
     plt.tight_layout()
-    plt.savefig('world_map.png', dpi=400, facecolor=dark_bg, bbox_inches='tight', pad_inches=0.1)
-    plt.savefig('world_map.svg', format='svg', facecolor=dark_bg, bbox_inches='tight', pad_inches=0.1)
-    print('Map saved as world_map.png and world_map.svg')
+    plt.savefig('output/world_map.png', dpi=400, facecolor=dark_bg, bbox_inches='tight', pad_inches=0.1)
+    plt.savefig('output/world_map.svg', format='svg', facecolor=dark_bg, bbox_inches='tight', pad_inches=0.1)
+    print('Map saved as output/world_map.png and output/world_map.svg')
 
 def main():
     MANUALLY_HIGHLIGHTED = ['venezuela', 'bolivia']
