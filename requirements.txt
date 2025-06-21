@@ -1,0 +1,4 @@
+# SeedSigner-WorldMap requirements
+geopandas
+matplotlib
+pycountry 

@@ -1,0 +1,70 @@
+United States of America
+United Kingdom
+Canada
+Australia
+New Zealand
+Ireland
+South Africa
+Nigeria
+Kenya
+India
+Philippines
+Singapore
+Jamaica
+Belize
+Barbados
+Spain
+Mexico
+Argentina
+Colombia
+Chile
+Peru
+Venezuela
+Bolivia
+Ecuador
+Guatemala
+Cuba
+Dominican Republic
+Honduras
+Uruguay
+Paraguay
+El Salvador
+France
+Canada
+Belgium
+Switzerland
+Luxembourg
+Democratic Republic of the Congo
+Ivory Coast
+Senegal
+Cameroon
+Madagascar
+Mali
+Burkina Faso
+Niger
+Chad
+Guinea
+Italy
+Switzerland
+San Marino
+Vatican City
+Netherlands
+Belgium
+Suriname
+Aruba
+Curaçao
+Sint Maarten
+Germany
+Austria
+Switzerland
+Belgium
+Luxembourg
+Liechtenstein
+Japan
+China
+Taiwan
+Singapore
+Costa Rica
+El Salvador
+Panama
+Nicaragua
