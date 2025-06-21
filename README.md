@@ -1,5 +1,7 @@
 # SeedSigner-WorldMap
 
+![Latest generated world map](world_map.png)
+
 SeedSigner-WorldMap is a Python tool to generate a beautiful, dark-themed world map that highlights all countries whose official languages are currently supported by the latest SeedSigner release.
 
 - Highlighted countries (solid orange): Countries where at least one official language is fully supported by SeedSigner.
